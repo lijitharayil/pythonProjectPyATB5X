@@ -2,12 +2,17 @@
 
 Dividend = int(input("Enter a number"))
 Divisor = int(input("Enter the second number"))
-# num1 = Dividend
-# num2 = Divisor
+num1 = Dividend
+num2 = Divisor
 
-Quotient = int(Dividend / Divisor)
+# Quotient = int(Dividend / Divisor)
+#
+# reminder = int(Dividend -(Divisor * Quotient))
 
-reminder = int(Dividend -(Divisor * Quotient))
+
+Quotient = Dividend//Divisor
+reminder = Dividend%Divisor
+
 
 print("Quotient is :",Quotient)
 print("reminder is :",reminder)
